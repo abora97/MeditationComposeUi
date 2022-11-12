@@ -45,3 +45,12 @@ fun MeditationComposeUiTheme(
         content = content
     )
 }
+
+@Composable
+fun MeditationUIYouTubeTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
+    MaterialTheme(
+        typography = Typography,
+        shapes = Shapes,
+        content = content
+    )
+}
